@@ -1,3 +1,16 @@
+body {
+    background-image: url(/home/alexia/code/menu_deroulant/img/fond.png);
+
+}
+
+header,main,footer {
+background-color: white;
+width: 40%;
+margin:auto;
+
+}
+
+
 /*Header---------------------------------------------------------------------*/
 header {
     font-family: Terminal Dosis;
@@ -14,6 +27,20 @@ h1 {
 
 
 /*Navigation-----------------------------------------------------------------*/
+nav ul li {
+
+    display: inline-block;
+}
+
+.pop {
+
+display:none;
+
+}
+
+.on: hover .pop {
+    display: block;
+}
 
 /*Main-----------------------------------------------------------------------*/
 
